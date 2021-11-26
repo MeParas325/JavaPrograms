@@ -1,5 +1,4 @@
-package ScahoolJava;
-
+// package ScahoolJava;
 interface MyInterface{
     public void colour();
     public void shape();
@@ -60,7 +59,7 @@ class Square implements MyInterface{
         System.out.println("Area of Square");
     }
 }
-public class MamtaProb {
+public class MamtaProb{
     public static void main(String[] args) {
         Rectangle rect = new Rectangle();
         rect.show();
