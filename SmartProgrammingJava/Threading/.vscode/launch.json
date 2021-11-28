@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_01_SingleTask_SingleThread",
+            "request": "launch",
+            "mainClass": "PV_01_SingleTask_SingleThread",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_02_SingleTask_MultiThread",
+            "request": "launch",
+            "mainClass": "PV_02_SingleTask_MultiThread",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_03_MultiThread_MultiTask",
+            "request": "launch",
+            "mainClass": "PV_03_MultiThread_MultiTask",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_04_MultiThread_MultiTask",
+            "request": "launch",
+            "mainClass": "PV_04_MultiThread_MultiTask",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_05_ThreadMethods",
+            "request": "launch",
+            "mainClass": "PV_05_ThreadMethods",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_06_DemonMethods",
+            "request": "launch",
+            "mainClass": "PV_06_DemonMethods",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_07_DemonMEthiods",
+            "request": "launch",
+            "mainClass": "PV_07_DemonMEthiods",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_09_ThreadPrioties",
+            "request": "launch",
+            "mainClass": "PV_09_ThreadPrioties",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_10_Sleep",
+            "request": "launch",
+            "mainClass": "PV_10_Sleep",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_11_Sleep2",
+            "request": "launch",
+            "mainClass": "PV_11_Sleep2",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_12_Sleep3",
+            "request": "launch",
+            "mainClass": "PV_12_Sleep3",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_12_yeild",
+            "request": "launch",
+            "mainClass": "PV_12_yeild",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_13_Join",
+            "request": "launch",
+            "mainClass": "PV_13_Join",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_14_Join",
+            "request": "launch",
+            "mainClass": "PV_14_Join",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_15_Join",
+            "request": "launch",
+            "mainClass": "PV_15_Join",
+            "projectName": "Threading_c25829f2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PV_16_Join",
+            "request": "launch",
+            "mainClass": "PV_16_Join",
+            "projectName": "Threading_c25829f2"
+        }
+    ]
+}
