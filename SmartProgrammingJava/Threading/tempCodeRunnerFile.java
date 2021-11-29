@@ -1,3 +1,6 @@
-public void run(){
-        System.out.println("Running the MyThread1 Method");
-    }
+try{
+                mainThread.join();
+            }
+            catch(Exception e){
+                System.out.println(e);
+            }
