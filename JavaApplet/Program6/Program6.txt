@@ -1,0 +1,3 @@
+/* <applet code="MyApplet6" width="400" height="200">
+    <param name="Paras" value="Tannu"/>
+</applet>*/
