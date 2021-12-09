@@ -1,4 +1,4 @@
-import java.awt.*;
+uimport java.awt.*;
 class Frameee extends Frame{
      Frame frm1;
      Label lbl_roll;
@@ -23,6 +23,6 @@ class Frameee extends Frame{
 
 public class Framee {
     static public void main(String agrs[]){
-        Framee obj = new Framee();
+        Frameee obj = new Frameee();
     }
 }
