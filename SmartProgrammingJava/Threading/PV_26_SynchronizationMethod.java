@@ -22,7 +22,7 @@ public class PV_26_SynchronizationMethod extends Thread{
     static public void main(String args[]){
          b = new BookSeat();
          PV_26_SynchronizationMethod Paras = new PV_26_SynchronizationMethod();
-         Paras.seats = 11;
+         Paras.seats = 10;
          Paras.start();
 
          PV_26_SynchronizationMethod Tannu = new PV_26_SynchronizationMethod();

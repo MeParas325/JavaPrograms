@@ -1,3 +1,5 @@
+import java.awt.*;
+import java.awt.event.*;
 public class Frame2 extends Frame implements ActionListener{
      Frame frm1;
      Label lbl_msg;
@@ -25,8 +27,10 @@ public class Frame2 extends Frame implements ActionListener{
          frm1.add(btn_click);
 
          public void actionPerformed(ActionEvent e){
-             String str = txt_msg.getText();
-             lbl_msg_e2.setText(str);
+             if(e.getSource() == btn_click){
+                 String str = txt_msg.getText();
+                 lbl_msg_e2.setText(str);
+             }
          }
      }
 

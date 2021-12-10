@@ -4,9 +4,10 @@ import java.net.*;
 
 public class PV_12_ClientServer{
     static public void main(String args[]){
-        while(true){
+        Boolean bol = true;
+        while(bol){
             try{
-                    Socket sk = new Socket("Localhost", 6060);
+                    Socket sk = new Socket("Localhost", 6969);
                     DataOutputStream dos = new DataOutputStream(sk.getOutputStream());
                     Scanner sc = new Scanner(System.in);
                     System.out.println("Enter the message for your friend:");
@@ -16,7 +17,7 @@ public class PV_12_ClientServer{
                     sk.close();
                     // sc.close();
     
-                    ServerSocket ss = new ServerSocket(6061);
+                    ServerSocket ss = new ServerSocket(6062);
                     Socket s = ss.accept();
                     DataInputStream dis = new DataInputStream(s.getInputStream());
                     String str = (String)dis.readUTF();
