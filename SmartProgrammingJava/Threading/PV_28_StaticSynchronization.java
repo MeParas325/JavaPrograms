@@ -1,14 +1,14 @@
 class BooKMovieSeat{
-    int totalSeats = 10;
+    static int totalSeats = 10;
 
-    public void seats(int seats){
+    static synchronized public void seats(int seats){
         if(totalSeats >= seats){
-            System.out.println(seats+" Seats Booked Successfully.");
+            System.out.println(seats+" Seats Booked Successfully for:"+Thread.currentThread().getName());
             totalSeats = totalSeats - seats;
             System.out.println(totalSeats+" Seats Left.");
         }
         else{
-            System.out.println("Seats connot be booked");
+            System.out.println("Seats connot be booked for:"+Thread.currentThread().getName());
             System.out.println(totalSeats+" Seats Left.");
         }
     }
@@ -48,11 +48,11 @@ public class PV_28_StaticSynchronization{
         MyThread2 t2 = new MyThread2(b1, 30);
         t2.start();
 
-        // BooKMovieSeat b2 = new BooKMovieSeat();
-        // MyThread1 t3 = new MyThread1(b2, 8);
-        // t3.start();
-        // MyThread2 t4 = new MyThread2(b2, 2);
-        // t4.start();
+        BooKMovieSeat b2 = new BooKMovieSeat();
+        MyThread1 t3 = new MyThread1(b2, 8);
+        t3.start();
+        MyThread2 t4 = new MyThread2(b2, 2);
+        t4.start();
 
 
     }
