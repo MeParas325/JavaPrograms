@@ -1,4 +1,4 @@
-uimport java.awt.*;
+import java.awt.*;
 class Frameee extends Frame{
      Frame frm1;
      Label lbl_roll;

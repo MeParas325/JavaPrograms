@@ -15,6 +15,7 @@ public class Frame2 extends Frame implements ActionListener{
          lbl_msg_e2 = new Label("");
          txt_msg = new TextField(30);
          btn_click = new Button("Click");
+         btn_click.addActionListener(this);
 
          FlowLayout f1 = new FlowLayout();
          frm1.setSize(300, 300);
@@ -25,6 +26,7 @@ public class Frame2 extends Frame implements ActionListener{
          frm1.add(lbl_msg_e2);
          frm1.add(txt_msg);
          frm1.add(btn_click);
+         }
 
          public void actionPerformed(ActionEvent e){
              if(e.getSource() == btn_click){
@@ -32,7 +34,6 @@ public class Frame2 extends Frame implements ActionListener{
                  lbl_msg_e2.setText(str);
              }
          }
-     }
 
      static public void main(String args[]){
          Frame2 obj = new Frame2(); 
