@@ -9,9 +9,6 @@ class MyThr extends Thread{
     }
 }
 
-
-
-
 public class PV_74_ThreadPriorites {
     public static void main(String[] args) {
         MyThr th1 = new MyThr("Paras1(Most  1)");
