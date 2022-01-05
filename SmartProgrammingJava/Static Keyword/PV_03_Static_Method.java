@@ -9,6 +9,7 @@ class PV_03_Static_Method{
     public static void main(String[] args) {
         PV_03_Static_Method obj = new PV_03_Static_Method();
         obj.display();
+        show();
     }
 }
 

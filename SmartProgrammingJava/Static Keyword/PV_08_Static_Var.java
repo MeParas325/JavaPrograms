@@ -6,8 +6,6 @@ class Employee{
     }
 
 }
-
-
 public class PV_08_Static_Var{
     public static void main(String[] args) {
         Employee obj = new Employee();
@@ -15,6 +13,6 @@ public class PV_08_Static_Var{
         Employee obj3 = new Employee();
         Employee obj4 = new Employee();
 
-        System.out.println("No of object:"+Employee.a);
+        System.out.println("No of Employees:"+Employee.a);
     }
 }
