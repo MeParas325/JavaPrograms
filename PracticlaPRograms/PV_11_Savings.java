@@ -12,9 +12,9 @@ class Account{
     }
 
     public void display(){
-        System.out.println("Account no is:"+accno);
-        System.out.println("Account Balance is:"+balance);
-        System.out.println("Name is:"+yourName);
+        System.out.println("Account Number :"+accno);
+        System.out.println("Name :"+yourName);
+        System.out.println("Balance :"+balance);
     }
 }
 public class PV_11_Savings{
