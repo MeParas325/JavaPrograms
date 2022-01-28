@@ -2,6 +2,7 @@ import java.io.*;
 
 public class PV_04_FileOutputStream {
     public static void main(String[] args)throws IOException {
+        
         FileOutputStream fo = new FileOutputStream("G:/Paras.txt");
 
         String name = "Paras";
