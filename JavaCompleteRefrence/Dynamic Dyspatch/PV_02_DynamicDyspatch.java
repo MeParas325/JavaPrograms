@@ -8,6 +8,10 @@ class Example3{
     void meth1(){
         System.out.println("I am the method1 of this class");
     }
+
+    void meth2(){
+        System.out.println("I am the method2 of this class");
+    }
 }
 
 class Example4 extends Example3{
@@ -32,10 +36,17 @@ public class PV_02_DynamicDyspatch extends Example3{
         System.out.println("I am the thrid method of third class!");
     }
 
+    void meth2(){
+        System.out.println("I am the method of PV_02_DynamicDyspatch.");
+    }
+
     public static void main(String aegs[]){
-        Example3 obj = new PV_02_DynamicDyspatch();
+        Example3 obj = new Example4();
+        // Example3 obj = new Example3();
+        // Example3 obj = new PV_02_DynamicDyspatch();
         obj.show();
         obj.meth1();
+        obj.meth2();
         // // obj.show2(); //This will give you an error
         // obj.show3();  //This will also give you an error
     }
